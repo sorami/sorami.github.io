@@ -3,171 +3,183 @@
 /* design by sorami hisamoto */
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Della Respira', serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Della Respira", serif;
 }
 
 body {
-	background-color: #88A764;
-	color: #F3F4E4;
-	border-top: solid 0.6em #2c3e50;
-	border-bottom: solid 0.6em #2c3e50;
-	padding: 0;
+  background-color: #88a764;
+  color: #f3f4e4;
+  border-bottom: solid 0.6em #2c3e50;
+  padding: 0;
+}
+
+#redirect {
+  padding: 1em 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-	color: #DDD;
+  color: #ddd;
 }
 
 a {
-	color: #EBE18C;
+  color: #ebe18c;
 }
 
 a:hover {
-	text-decoration: none;
-	color: #2c3e50;
+  text-decoration: none;
+  color: #2c3e50;
 }
 
 p {
-	//padding-bottom: 0.8em;
-	padding-left: 0.8em;
+  //padding-bottom: 0.8em;
+  padding-left: 0.8em;
 }
 
 h1 {
-	text-align: center;
-	font-size: 2.4em;
-	margin-top: 0.5em;
-	font-family: 'Lily Script One', cursive;
-	color: #FFF;
+  text-align: center;
+  font-size: 2.4em;
+  margin-top: 0.5em;
+  font-family: "Lily Script One", cursive;
+  color: #fff;
 }
 
 h2 {
-	margin-bottom: 1.2em;
-	font-size: 1.6em;
-	border-left: solid 0.4em #34495e;
-	padding-left: 0.5em;
-	font-family: 'Milonga', cursive;
-	color: #2c3e50;
+  margin-bottom: 1.2em;
+  font-size: 1.6em;
+  border-left: solid 0.4em #34495e;
+  padding-left: 0.5em;
+  font-family: "Milonga", cursive;
+  color: #2c3e50;
 }
 
 h3 {
-	font-size: 1.1em;
-	margin-top: 1.6em;
-	padding-bottom: 0.2em;
-	margin-bottom: 0.6em;
-	border-bottom: dashed 1px #FFF;
-	font-family: 'Milonga', cursive;
+  font-size: 1.1em;
+  margin-top: 1.6em;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+  border-bottom: dashed 1px #fff;
+  font-family: "Milonga", cursive;
 }
 
-h3 a, h4 a {
-	text-decoration: none;
+h3 a,
+h4 a {
+  text-decoration: none;
 }
 
-h3 a:hover, h3 a:hover {
-	text-decoration: underline;
+h3 a:hover,
+h3 a:hover {
+  text-decoration: underline;
 }
 
 h4 {
-	font-size: 1em;
-	margin-bottom: 0.4em;
-	color: #EAEAEA;
-	font-family: 'Milonga', cursive;
+  font-size: 1em;
+  margin-bottom: 0.4em;
+  color: #eaeaea;
+  font-family: "Milonga", cursive;
 }
-
 
 #koi {
-	text-align: right;
-	width: 870px;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -175px;
+  text-align: right;
+  width: 870px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -175px;
 }
-
 
 /* SECTIONS */
 .container {
-	width: 640px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 2.4em;
-	padding-bottom: 2.4em;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.4em;
+  padding-bottom: 2.4em;
 }
 
 #contact {
-	text-align: center;
-	color: #2c3e50;
+  text-align: center;
+  color: #2c3e50;
 }
 
 #photo {
-	margin-top: 3.5em;
-	float: left;
-	width: 20%;
+  margin-top: 3.5em;
+  float: left;
+  width: 20%;
 }
 
 #intro {
-	float: left;
-	width: 80%;
-	text-align: center;
+  float: left;
+  width: 80%;
+  text-align: center;
 }
 
 #photo_intro:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 footer {
-	width: 640px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 2.4em;
-	padding-bottom: 0.5em;
-	text-align: right;
-	color: #EEE;
-	font-size: 0.9em;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.4em;
+  padding-bottom: 0.5em;
+  text-align: right;
+  color: #eee;
+  font-size: 0.9em;
 }
 
-
 #top_section {
-	background-color: #8e44ad;
+  background-color: #8e44ad;
 }
 
 #publications {
-	background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 #publications_notrefereed {
-	background-color: #16a085;
+  background-color: #16a085;
 }
 
 #code {
-	background-color: #88A764;
+  background-color: #88a764;
 }
 
-
-#publications h4, #publications_notrefereed h4 {
-	font-size: 0.9em;
-	margin-bottom: 0;
-	font-weight: normal;
-	color: #EEE;
+#publications h4,
+#publications_notrefereed h4 {
+  font-size: 0.9em;
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #eee;
 }
 
-#publications p, #publications_notrefereed p {
-	margin-top: 0.6em;
+#publications p,
+#publications_notrefereed p {
+  margin-top: 0.6em;
 }
 
-#publications .me, #publications_notrefereed .me {
-	text-decoration: underline;
+#publications .me,
+#publications_notrefereed .me {
+  text-decoration: underline;
 }
 
-#publications .conference, #publications_notrefereed .conference {
-	font-style: italic;
+#publications .conference,
+#publications_notrefereed .conference {
+  font-style: italic;
 }
 
-#publications .abbreviation, ##publications_notrefereed .abbreviation {
-	font-weight: bolder;
+#publications .abbreviation,
+##publications_notrefereed .abbreviation {
+  font-weight: bolder;
 }
